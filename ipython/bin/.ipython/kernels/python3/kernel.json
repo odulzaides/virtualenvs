@@ -1,0 +1,14 @@
+{
+    "display_name": "IPython (Python 3)", 
+    "language": "python", 
+    "argv": [
+        "python3", 
+        "-c", "from IPython.kernel.zmq.kernelapp import main; main()", 
+        "-f", "{connection_file}"
+    ], 
+    "codemirror_mode": {
+        "version": 2, 
+        "name": "ipython"
+    }
+}
+
